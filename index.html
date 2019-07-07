@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css"/>
+    <title>ALC4.0Rivers Mentors/Leaders</title>
+    <script src="https://kit.fontawesome.com/79647b5111.js"></script>
+</head>
+<body>
+    <header>
+        <div class="col2"><p>ALC4.0Rivers State</p></div>
+        <navbar class="col2"><input type=button class="button" onClick="location.href='#about'" value='About'></navbar>
+    </header>
+    <Main>
+        <div>
+            <h1 id="header">ALC4.0Rivers State Mentors 2019</h1>
+            <p>Connect with your ALC4.0Rivers Mentors/Leaders on Social Media<br/>
+                <small>(All Data gotten from Twitter and put in a static json file)</small
+            ></p>
+            <p>By @GodwinAgedah from ALC Mobile Web Specialist Track<br/>
+                <small>(No framework or library was used in making this site)</small>
+            </p>
+            <h2 id="queryStatus">ALL Mentors</h2>
+        </div>
+        <div id="downNavigation">
+                <ul>
+                    <li id="All" onclick="query(this.id)"><i class="fas fa-home fa-2x"></i></li></a>
+                    <li id="MWS" onclick="query(this.id)"><i class="fas fa-mobile-alt fa-2x"></i></li>
+                    <li id="Android" onclick="query(this.id)"><i class="fab fa-android fa-2x"></i></li>
+                    <li id="Cloud" onclick="query(this.id)"><i class="fas fa-cloud fa-2x"></i></li>
+                </ul>
+        </div>
+        <!-- Mentors -->
+        <div id="mentorsDiv">
+            MENTORS DIV
+        </div>
+    </Main>
+    <footer>
+        <div>
+            <div id="about">
+                <h2>About</h2>
+                <p>This Page was built by Godwin Agedah to help members of the ALC4.0Rivers connect with their Mentors on Social Media, Godwin is an aspiring FullStack 
+                    developer looking for mentors and a position in the industry.
+                </p>
+            </div>
+            <div id="authorProfile">
+                <h3>Contact me :)</h3>
+                <p>where to find me on the internet</p>
+                <img src="images/icons/darktwitter.png">
+                <img src="images/icons/github.png">
+                <img src="images/icons/website.png">
+                <img src="images/icons/mail.png">
+                <p><small>&copy; 2019 godwinagedah.com.ng</small></p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

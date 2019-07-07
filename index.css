@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.button{
+    background-color: #048998;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8rem;
+    cursor: pointer;
+    border: 2px solid white; 
+}
+.button:hover{
+    text-decoration: underline;
+    padding: 0.9rem;
+}
+.show{
+    display: inherit;
+}
+header{
+    background-color:#048998;
+    color: White;
+    padding: 0.5rem;
+}
+body{
+    margin: 0px;
+}
+navbar {
+    text-align: right;
+}
+
+main{
+    text-align: center;
+}
+h1{
+    margin-bottom:0px;
+    color:#048998;
+}
+small{
+    color:#7b8696;
+
+}
+#it{
+    font-size: 0.2rem;
+}
+.profile{
+    border: 1px solid #e9e4e6;
+    border-radius: 1rem;
+    text-align: center;
+    width: 75%;
+    padding: 1rem;
+    margin:1rem auto;
+}
+
+.profileImg{
+    width:50%;
+    margin:0 auto;
+}
+.profileImg > img{
+    border: 1px solid #3bb4c1;
+    border-radius: 50%;
+    width: 100%;
+}
+.secondaryText{
+    color: gray;
+    font-size: 0.9rem;
+}
+.col4{
+    width:25%;
+}
+.col2{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 49%;
+}
+#downNavigation{
+    width: 100%;
+    position: fixed;
+    background-color:white;
+    border-top: 1px solid #7b8696;
+    height: auto;
+    bottom: 0;
+}
+#downNavigation ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin:0 0.3rem 0 0.3rem;
+    width: 20%;
+}
+
+#downNavigation > ul {
+    padding: 1.0rem;
+    margin: inherit;
+}
+.fas, .fab{
+    color:#3bb4c1;
+}
+footer > div{
+    margin: 0rem 0rem 5rem 0rem; 
+}
+footer{
+    width:80%;
+    margin:1rem auto;
+}
+
+@media  screen and (min-width: 960px){
+    .profile {
+        display: inline-block;
+        width:22%;
+        margin: 1rem;
+    }
+    #mentorsDiv{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+.hide{
+    display: none;
+}
