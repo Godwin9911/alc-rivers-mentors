@@ -115,6 +115,18 @@ footer{
         width: 70%;
         margin: 0 auto;
     }
+    #All::after{
+        content: " All Mentors";
+    }
+    #MWS::after{
+        content: " Mobile web Specialist";
+    }
+    #Android::after{
+        content: " Android";
+    }
+    #Cloud::after{
+        content: " Cloud";
+    }
 }
 
 .hide{

@@ -13,7 +13,7 @@ fetch('mentors.json')
                         <p class="secondaryText">${userprofile.stack}</p>
                     </div>
                     <div class="social">
-                        <a href="https://twitter.com/${userprofile.twittername}" >
+                        <a href="https://twitter.com/${userprofile.twitternameuser}" >
                           <img src="images/icons/twitter.png" alt="twitter"/>
                         <a/>
                     </div>
