@@ -18,7 +18,7 @@ fetch('mentors.json')
                         <a/>
                     </div>
                 </div>`
-        }).join(''); 
+        }).join('');
 
     document.getElementById("mentorsDiv").innerHTML = profile;
   });
@@ -66,6 +66,5 @@ function query(id){
       profileClass[i].classList.remove("hide");
     }
   }
-    
+
 }
-  
