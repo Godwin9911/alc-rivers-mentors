@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .button{
-    background-color: #048998;
+    background-color: #036a75;
     border: none;
     color: white;
     text-align: center;
@@ -20,7 +19,7 @@
     display: inherit;
 }
 header{
-    background-color:#048998;
+    background-color:#015761;
     color: White;
     padding: 0.5rem;
 }
@@ -39,7 +38,7 @@ h1{
     color:#048998;
 }
 small{
-    color:#7b8696;
+    color:#393c41;
 
 }
 #it{
@@ -64,7 +63,7 @@ small{
     width: 100%;
 }
 .secondaryText{
-    color: gray;
+    color: #393c41;
     font-size: 0.9rem;
 }
 .col4{
@@ -94,8 +93,8 @@ small{
     padding: 1.0rem;
     margin: inherit;
 }
-.fas, .fab{
-    color:#3bb4c1;
+.fa{
+    color:#015761;
 }
 footer > div{
     margin: 0rem 0rem 5rem 0rem; 

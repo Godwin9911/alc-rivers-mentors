@@ -1,0 +1,19 @@
+{
+    "name": "ALC4.0 Rivers Mentors",
+    "short_name": "ALC4.0 Rivers Mentors",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#036a75",
+    "background_color": "#036a75",
+    "display": "standalone"
+}

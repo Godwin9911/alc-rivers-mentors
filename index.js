@@ -6,7 +6,7 @@ fetch('mentors.json')
     const profile = data.map((userprofile) => {
          return `<div class="profile ${userprofile.stack}">
                     <div class="profileImg">
-                        <img src="images/profilepics/${userprofile.twitterusername}.png" alt="userimg"/>
+                        <img src="images/profilepics/${userprofile.twitterusername}.png" alt="alc mentor image"/>
                     </div>
                     <div class="name">
                         <p><strong>${userprofile.twittername}</strong><br>${userprofile.twitterusername}</p>
