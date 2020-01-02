@@ -23,7 +23,7 @@ fetch('mentors.json')
     document.getElementById("mentorsDiv").innerHTML = profile;
   });
 
-  var desktop = window.matchMedia("(min-width:960px)");
+  /* let desktop = window.matchMedia("(min-width:960px)");
 
   if(!desktop.matches){
     //false
@@ -33,36 +33,36 @@ fetch('mentors.json')
     //true
     console.log(desktop.matches);
 
-  }
+  } */
 
 //get link name
 function query(id){
 
-  var header = document.getElementById("header");
+  let header = document.getElementById("header");
   header.scrollIntoView();
 
   //change queryStatus
   document.getElementById("queryStatus").innerHTML = `${id} Mentors`;
-  var profileClass = document.getElementsByClassName("profile");
+  let profileClass = document.getElementsByClassName("profile");
 
   if(id !== "All"){
-    console.log(id + " false")
+    // console.log(id + " false")
 
     //go back to page begining //Disable button when clicked
 
     //Add hide class to all profiles
-    for (var i = 0; i < profileClass.length; i++) {
+    for (let i = 0; i < profileClass.length; i++) {
       profileClass[i].classList.add("hide");
     }
     //Remove Hide from elements with needed id
-    var getID = document.getElementsByClassName(id);
-    for (var i = 0; i < getID.length; i++) {
+    let getID = document.getElementsByClassName(id);
+    for (let i = 0; i < getID.length; i++) {
       getID[i].classList.remove("hide");
     }
 
   }else{
 
-    for (var i = 0; i < profileClass.length; i++) {
+    for (let i = 0; i < profileClass.length; i++) {
       profileClass[i].classList.remove("hide");
     }
   }

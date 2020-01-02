@@ -14,7 +14,6 @@
     <meta name="msapplication-TileColor" content="#00aba9">
     <link rel="stylesheet" href="index.css"/>
     <title>ALC4.0Rivers Mentors and facilitators</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
@@ -66,6 +65,19 @@
         </div>
 
     </footer>
+    <script>
+        if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+        .then(swReg => {
+          console.log('Service Worker is registered', swReg);
+        })
+        .catch(err => {
+          console.error('Service Worker Error', err);
+        });
+      });
+    }
+    </script>
     <script src="index.js"></script>
 </body>
 </html>
