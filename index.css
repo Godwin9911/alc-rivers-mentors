@@ -2,6 +2,9 @@
 *{
     font-family: 'Source Sans Pro', sans-serif;
 }
+a {
+    color: #036a75;
+}
 .button{
     background-color: #036a75;
     border: none;
