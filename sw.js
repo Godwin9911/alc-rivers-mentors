@@ -2,13 +2,17 @@ const filesToCache = [
   '/',
   'index.html',
   'pages/offline.html',
-  'pages/404.html'
+  'pages/404.html',
+  'index.css',
+  'index.js',
+  'mentors.json'
 ];
 
-const staticCacheName = 'pages-cache-v2';
+const staticCacheName = 'pages-cache-v1';
 
 self.addEventListener('install', event => {
   // console.log('Attempting to install service worker and cache static assets');
+  self.skipWaiting();
   event.waitUntil(
     caches.open(staticCacheName)
     .then(cache => {
